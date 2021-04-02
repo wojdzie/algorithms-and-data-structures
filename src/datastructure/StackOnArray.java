@@ -32,6 +32,7 @@ public class StackOnArray<E> {
     public int size() {
         return nextIndex;
     }
+
     public boolean isEmpty() {
         return nextIndex == 0;
     }
