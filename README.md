@@ -1,6 +1,8 @@
 # Algorithms and Data Structures
 Below there is a list of algorithms and data structures implemented in Java
 ## Algorithms
+1. [Bubble Sort](src/algorithm/BubbleSort.java)
+2. [Selection Sort](src/algorithm/SelectionSort.java)
 
 
 ## Data Structures
