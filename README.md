@@ -3,6 +3,7 @@ Below there is a list of algorithms and data structures implemented in Java
 ## Algorithms
 1. [Bubble Sort](src/algorithm/BubbleSort.java)
 2. [Selection Sort](src/algorithm/SelectionSort.java)
+3. [Insertion Sort](src/algorithm/InsertionSort.java)
 
 
 ## Data Structures
