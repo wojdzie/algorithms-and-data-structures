@@ -5,6 +5,7 @@ Below there is a list of algorithms and data structures implemented in Java
 2. [Selection Sort](src/algorithm/SelectionSort.java)
 3. [Insertion Sort](src/algorithm/InsertionSort.java)
 4. [Shell Sort](src/algorithm/ShellSort.java)
+5. [Merge Sort](src/algorithm/MergeSort.java)
 
 
 ## Data Structures
