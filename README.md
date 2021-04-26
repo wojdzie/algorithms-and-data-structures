@@ -8,6 +8,8 @@ Below there is a list of algorithms and data structures implemented in Java
 5. [Merge Sort](src/algorithm/MergeSort.java)
 6. [Quick Sort](src/algorithm/QuickSort.java)
 7. [Heap Sort](src/algorithm/HeapSort.java)
+8. [Linear Search](src/algorithm/LinearSearch.java)
+9. [Binary Search](src/algorithm/BinarySearch.java)
 
 ## Data Structures
 1. [Stack (based on linked-list)](src/datastructure/Stack.java)
