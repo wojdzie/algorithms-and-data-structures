@@ -17,3 +17,4 @@ Below there is a list of algorithms and data structures implemented in Java
 3. [Bag](src/datastructure/Bag.java)
 4. [Queue](src/datastructure/Queue.java)
 5. [Priority Queue](src/datastructure/PriorityQueue.java)
+6. [Binary Search Tree](src/datastructure/BinarySearchTree.java)
