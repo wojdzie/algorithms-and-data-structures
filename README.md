@@ -1,5 +1,6 @@
 # Algorithms and Data Structures
 Below there is a list of algorithms and data structures implemented in Java
+
 ## Algorithms
 1. [Bubble Sort](src/algorithm/BubbleSort.java)
 2. [Selection Sort](src/algorithm/SelectionSort.java)
@@ -12,12 +13,11 @@ Below there is a list of algorithms and data structures implemented in Java
 9. [Binary Search](src/algorithm/BinarySearch.java)
 
 ## Data Structures
-1. [Stack (based on linked-list)](src/datastructure/Stack.java)
-2. [Stack (based on resizable array)](src/datastructure/StackOnArray.java)
-3. [Bag](src/datastructure/Bag.java)
-4. [Queue](src/datastructure/Queue.java)
-5. [Priority Queue](src/datastructure/PriorityQueue.java)
-6. [Binary Search Tree](src/datastructure/BinarySearchTree.java)
-7. [Red Black Binary Search Tree](src/datastructure/RedBlackBinarySearchTree.java)
-8. [Hash Table With Collision Resolution Method - Separate Chaining](src/datastructure/HashTableSeparateChaining.java)
-9. [Hash Table With Collision Resolution Method - Linear Probing](src/datastructure/HashTableLinearProbing.java)
+1. [Stack](src/datastructure/Stack.java)
+2. [Linked List](src/datastructure/LinkedList.java)
+3. [Queue](src/datastructure/Queue.java)
+4. [Priority Queue](src/datastructure/PriorityQueue.java)
+5. [Binary Search Tree](src/datastructure/BinarySearchTree.java)
+6. [Red Black Binary Search Tree](src/datastructure/RedBlackBinarySearchTree.java)
+7. [Hash Table With Collision Resolution Method - Separate Chaining](src/datastructure/HashTableSeparateChaining.java)
+8. [Hash Table With Collision Resolution Method - Linear Probing](src/datastructure/HashTableLinearProbing.java)
