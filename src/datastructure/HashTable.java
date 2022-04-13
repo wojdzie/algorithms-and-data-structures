@@ -49,20 +49,15 @@ public class HashTable {
         }
 
         private void resize(int capacity) {
-            List<HashNode<K, V>>[] oldBucketArray = this.bucketArray;
-            List<HashNode<K, V>>[] newBucketArray = new List[capacity];
-            for (int i = 0; i < M * 2; i++) {
-                newBucketArray[i] = new LinkedList<>();
-            }
-            this.N = 0;
-            this.M = capacity;
-            this.bucketArray = newBucketArray;
-            for (int i = 0; i < M / 2; i++) {
-                List<HashNode<K, V>> bucket = oldBucketArray[i];
+            HashTableWithSeparateChainingImplementation<K, V> newHashTable = new HashTableWithSeparateChainingImplementation<>(capacity);
+            for (List<HashNode<K, V>> bucket : bucketArray) {
                 for (HashNode<K, V> node : bucket) {
-                    put(node.key, node.value);
+                    newHashTable.put(node.key, node.value);
                 }
             }
+            this.N = newHashTable.N;
+            this.M = newHashTable.M;
+            this.bucketArray = newHashTable.bucketArray;
         }
 
         public void put(K key, V value) {
@@ -88,8 +83,11 @@ public class HashTable {
                 if (key.equals(pair.key)) {
                     bucket.remove(pair);
                     N--;
-                    return;
+                    break;
                 }
+            }
+            if (N > 0 &&  8 * N == M) {
+                resize(M / 2);
             }
         }
     }
