@@ -21,3 +21,4 @@ Below there is a list of algorithms and data structures implemented in Java
 6. [LRU Cache](src/datastructure/LRUCache.java)
 7. [Disjoint Set](src/datastructure/DisjointSet.java)
 8. [Trie](src/datastructure/Trie.java)
+9. [Skip List](src/datastructure/SkipList.java)
