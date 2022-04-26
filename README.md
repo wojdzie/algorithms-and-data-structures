@@ -20,9 +20,4 @@ Below there is a list of algorithms and data structures implemented in Java
 5. [Heap](src/datastructure/Heap.java)
 6. [LRU Cache](src/datastructure/LRUCache.java)
 7. [Disjoint Set](src/datastructure/DisjointSet.java)
-
-8. [Priority Queue](src/datastructure/PriorityQueue.java)
-9. [Binary Search Tree](src/datastructure/BinarySearchTree.java)
-10. [Red Black Binary Search Tree](src/datastructure/RedBlackBinarySearchTree.java)
-11. [Hash Table With Collision Resolution Method - Separate Chaining](src/datastructure/HashTableSeparateChaining.java)
-12. [Hash Table With Collision Resolution Method - Linear Probing](src/datastructure/HashTableLinearProbing.java)
+8. [Trie](src/datastructure/Trie.java)

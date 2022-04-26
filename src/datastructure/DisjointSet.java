@@ -2,7 +2,7 @@ package datastructure;
 
 public class DisjointSet {
 
-    public static class DisjointSetImplementation {
+    private static class DisjointSetImplementation {
 
         private final int[] parents;
         private final int[] ranks;

@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class LRUCache {
 
-    public static class LRUCacheImplementation<K, V> {
+    private static class LRUCacheImplementation<K, V> {
 
         private final int CACHE_SIZE;
         private Deque<K> deque;
