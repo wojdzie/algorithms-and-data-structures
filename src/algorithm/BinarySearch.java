@@ -1,64 +1,38 @@
 package algorithm;
 
-public class BinarySearch<K extends Comparable<K>, V> {
+public class BinarySearch {
 
-    private K[] keys;
-    private V[] values;
-    private int size;
+    private static class BinarySearchImplementation {
 
-    public BinarySearch(int capacity) {
-        this.keys = (K[]) new Comparable[capacity];
-        this.values = (V[]) new Object[capacity];
-    }
-
-    public V get(K key) {
-        if (isEmpty()) {
-            return null;
+        public static Integer search(int[] sortedArray, int searchedValue) {
+            return search(sortedArray, searchedValue, 0, sortedArray.length - 1);
         }
-        int i = rank(key);
-        if (i < size && keys[i].compareTo(key) == 0) {
-            return values[i];
-        }
-        return null;
-    }
 
-    private int rank(K key) {
-        int lo = 0;
-        int hi = size - 1;
-        while (lo <= hi) {
-            int mid = (lo + hi) / 2;
-            if (key.compareTo(keys[mid]) == 0) {
-                return mid;
-            } else if (key.compareTo(keys[mid]) > 0) {
-                lo = mid + 1;
+        private static Integer search(int[] sortedArray, int searchedValue, int lo, int hi) {
+            int mid = lo + (hi - lo) / 2;
+
+            if (lo <= hi) {
+                if (sortedArray[mid] == searchedValue) {
+                    return mid;
+
+                } else if (searchedValue < sortedArray[mid]) {
+                    return search(sortedArray, searchedValue, lo, mid - 1);
+
+                } else {
+                    return search(sortedArray, searchedValue, mid + 1, hi);
+                }
             } else {
-                hi = mid - 1;
+                return null;
             }
         }
-        return lo;
     }
 
-    public void put(K key, V value) {
-        int i = rank(key);
-        if (i < size && keys[i].compareTo(key) == 0) {
-            values[i] = value;
-            return;
-        }
-        for (int j = size; j > i; j--) {
-            keys[j] = keys[j - 1];
-            values[j] = values[j - 1];
-        }
-        keys[i] = key;
-        values[i] = value;
-        size++;
-    }
-
-
-    public int size() {
-        return size;
-    }
-
-    public boolean isEmpty() {
-        return size == 0;
+    public static void main(String[] args) {
+        int[] sortedArray = {0, 1, 1, 3, 7, 11, 11, 23, 126, 350, 355};
+        BinarySearchImplementation.search(sortedArray, 23);
+        BinarySearchImplementation.search(sortedArray, 11);
+        BinarySearchImplementation.search(sortedArray, 0);
+        BinarySearchImplementation.search(sortedArray, -1);
+        BinarySearchImplementation.search(sortedArray, 360);
     }
 }
