@@ -1,4 +1,4 @@
-# Algorithms and Data Structures
+ # Algorithms and Data Structures
 Below there is a list of algorithms and data structures implemented in Java
 
 ## Algorithms
@@ -11,6 +11,7 @@ Below there is a list of algorithms and data structures implemented in Java
 7. [Heap Sort](src/algorithm/HeapSort.java)
 8. [Linear Search](src/algorithm/LinearSearch.java)
 9. [Binary Search](src/algorithm/BinarySearch.java)
+10. [Counting Sort](src/algorithm/CountingSort.java)
 
 ## Data Structures
 1. [Stack](src/datastructure/Stack.java)
