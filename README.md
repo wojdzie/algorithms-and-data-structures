@@ -13,6 +13,7 @@ Below there is a list of algorithms and data structures implemented in Java
 9. [Binary Search](src/algorithm/BinarySearch.java)
 10. [Counting Sort](src/algorithm/CountingSort.java)
 11. [Quick Select](src/algorithm/QuickSelect.java)
+12. [Breadth First Search](src/algorithm/BreadthFirstSearch.java)
 
 ## Data Structures
 1. [Stack](src/datastructure/Stack.java)
