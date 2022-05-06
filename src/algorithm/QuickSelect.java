@@ -1,8 +1,8 @@
 package algorithm;
 
-public class Quickselect {
+public class QuickSelect {
 
-    private static class QuickselectImplementation {
+    private static class QuickSelectImplementation {
 
         public static Integer kthSmallestElement(int[] array, int lo, int hi, int k) {
             int pivot = partition(array, lo, hi);
@@ -37,6 +37,6 @@ public class Quickselect {
 
     public static void main(String[] args) {
         int[] array = new int[] { 10, 4, 5, 8, 6, 11, 26 };
-        QuickselectImplementation.kthSmallestElement(array, 0, array.length - 1, 3);
+        QuickSelectImplementation.kthSmallestElement(array, 0, array.length - 1, 3);
     }
 }
