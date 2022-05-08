@@ -17,6 +17,7 @@ Below there is a list of algorithms and data structures implemented in Java
 13. [Depth First Search](src/algorithm/DepthFirstSearch.java)
 14. [Dijkstra Shortest Path](src/algorithm/DijkstraShortestPath.java)
 15. [Topological Sort](src/algorithm/TopologicalSort.java)
+16. [Bellman-Ford's Shortest Path](src/algorithm/BellmanFordShortestPath.java)
 
 ## Data Structures
 1. [Stack](src/datastructure/Stack.java)

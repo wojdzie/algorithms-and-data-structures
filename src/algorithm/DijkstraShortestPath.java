@@ -46,10 +46,10 @@ public class DijkstraShortestPath {
                     }
                 }
             }
-            printSolution(dist);
+            print(dist);
         }
 
-        void printSolution(int[] dist) {
+        void print(int[] dist) {
             System.out.println("Vertex | Distance from Source");
             for (int i = 0; i < vertices; i++)
                 System.out.println(i + " | " + dist[i]);
