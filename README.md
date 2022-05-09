@@ -30,3 +30,4 @@ Below there is a list of algorithms and data structures implemented in Java
 8. [Trie](src/datastructure/Trie.java)
 9. [Skip List](src/datastructure/SkipList.java)
 10. [Binary Search Tree](src/datastructure/BinarySearchTree.java)
+11. [AVL Tree](src/datastructure/AVLTree.java)
